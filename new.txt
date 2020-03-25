@@ -1,0 +1,1000 @@
+   15  sudo find / -iname spark-default.conf
+   16  cd /usr/lib
+   17  ls
+   18  cd spark
+   19  ls
+   20  cd sbin/
+   21  ls
+   22  sudo sh start-master.sh 
+   23  sudo sh start-slave.sh master:7077
+   24  sudo sh start-all
+   25  sudo sh start-all.sh 
+   26  cd .ssh
+   27  cd
+   28  cd .ssh
+   29  sudo vi /etc/ssh/sshd_config 
+   30  cd
+   31  cd /usr/lib/spark
+   32  ls
+   33  cd sbin/
+   34  sudo sh start-slave.sh
+   35  sudo sh start-slave.sh master:8081
+   36  cd /usr/local
+   37  ls
+   38  cd /usr/lib
+   39  ls
+   40  cd spark
+   41  ls
+   42  cd /usr/lib
+   43  ls
+   44  cd spark
+   45  ls
+   46  cd sbin/
+   47  ls
+   48  sudo sh stop-slaves.sh 
+   49  sudo sh pwd
+   50  pwd
+   51  cd /usr/lib/spark/sbin/
+   52  ls
+   53  sudo sh stop-slaves.sh master:8081
+   54  sudo sh stop-slave.sh master:8081
+   55  sudo sh stop-all.sh 
+   56  cd /opt
+   57  ls
+   58  cd spark
+   59  ls
+   60  cd conf/
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd work/
+   65  ls
+   66  cd ..
+   67  cd li
+   68  ls
+   69  cd lib
+   70  cd Lib
+   71  pwd
+   72  ls
+   73  cat spark-1.6.3-yarn-shuffle.jar 
+   74  ls
+   75  pwd
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd conf/'
+   80  cd conf/
+   81  ls
+   82  cat slaves.template 
+   83  sudo vi slaves.template 
+   84  pwd
+   85  ls
+   86  cat spark-defaults.conf.template 
+   87  pwd
+   88  ls
+   89  cat spark-env.sh.template 
+   90  ls
+   91  cat spark-defaults.conf.template 
+   92  cat slaves.template 
+   93  sudo vi slaves.template 
+   94  pwd
+   95  ls
+   96  pwd
+   97  whoami
+   98  exit
+   99  sudo find / -iname spark
+  100  rm -rf spark*
+  101  sudo find / -iname spark
+  102  cd /opt
+  103  ls
+  104  rm -rf spark-1.6.3-bin-hadoop2.6
+  105  sudo rm -rf spark-1.6.3-bin-hadoop2.6
+  106  ls
+  107  sudo rm -rf spark
+  108  ls
+  109  sudo rm -rf spark-1.6.3-bin-hadoop2.6.tgz 
+  110  ls
+  111  sudo find / -iname spark
+  112  cd .ssh
+  113  ls -a
+  114  cd
+  115  ls -a
+  116  cd .ssh
+  117  ls
+  118  cd authorized_keys 
+  119  cat authorized_keys 
+  120  cd
+  121  cd .ssh
+  122  vi /etc/ssh/sshd_config 
+  123  sudo vi /etc/ssh/sshd_config 
+  124  systemctl restart sshd
+  125  sudo systemctl restart sshd
+  126  sudo visudo
+  127  systemctl status activemq
+  128  cd /opt
+  129  ls
+  130  hostname -i
+  131  cd
+  132  sudo find / -iname activemq
+  133  cd /var/log
+  134  ls
+  135  cd 
+  136  cd /etc/default/
+  137  ls
+  138  activemq_instance_name
+  139  cd
+  140  sudo find / -iname activemq_instance_name
+  141  cd
+  142  cd /etc/
+  143  ls
+  144  sudo find / -iname tomcat-users.xml
+  145  sudo yum purge tomcat
+  146  sudo yum remove tomcat
+  147  tomcat
+  148  netstat -lntp
+  149  netstat -lntp | grep 8080
+  150  hostname -i
+  151  exit
+  152  sudo find / -iname jetty.xml
+  153  sudo vi /opt/apache-activemq-5.15.10/conf/jetty.xml
+  154  sudo vi /opt/apache-activemq-5.15.10/conf/users.properties 
+  155  cd /opt/apache-activemq-5.15.10/conf/
+  156  ls
+  157  cat jetty-realm.properties 
+  158  sudo yum remove activemq
+  159  sudo find / -iname activemq
+  160  sudo yum remove apache-activemq-5.15.10
+  161  pwd
+  162  cd opt
+  163  cd ..
+  164  pwd
+  165  cd ..
+  166  pwd
+  167  sudo yum remove apache-activemq-5.15.10
+  168  sudo yum autoremove
+  169  sudo find / -iname activemq
+  170  sudo rm -rf  /opt/apache*
+  171  sudo find / -iname activemq
+  172  cd /home
+  173  ls
+  174  sudo rm -rf activemq/
+  175  cd /opt
+  176  ls
+  177  sudo rm -rf activemq 
+  178  ls
+  179  sudo find / -iname activemq
+  180  cd /opt
+  181  ls
+  182  cd apache-activemq-5.15.10
+  183  ls
+  184  cd bin/
+  185  ls
+  186  cd ..
+  187  cd conf/
+  188  ls
+  189  cat jetty-realm.properties 
+  190  pwd
+  191  ls
+  192  sudo vi jetty-realm.properties 
+  193  systemctl restart activemq
+  194  sudo systemctl restart activemq
+  195  sudo systemctl status activemq
+  196  pwd
+  197  ls
+  198  cd /opt
+  199  ls
+  200  cd
+  201  sudo systemctl status activemq
+  202  netstat -lntp
+  203  sudo netstat -lntp
+  204  systemctl status activemq
+  205  sudo systemctl restart activemq
+  206  sudo find / -iname activeq
+  207  sudo find / -iname activemq
+  208  sudo rm -rf /opt/apache*
+  209  sudo find / -iname activemq
+  210  sudo rm -rf /home/activemq
+  211  sudo rm -rf /opt/activemq 
+  212  sudo find / -iname activeq
+  213  pwd
+  214  cd /opt
+  215  ls
+  216  cd apache-activemq-5.15.10
+  217  ls
+  218  cd conf/
+  219  ls
+  220  cd ..
+  221  ls
+  222  sudo rm -rf activemq-all-5.15.10.jar 
+  223  sudo find / -iname activemq
+  224  sudo rm -rf /opt/apache*
+  225  sudo rm -rf /home/activemq
+  226  sudo rm -rf /opt/activemq 
+  227  sudo find / -iname activemq
+  228  yum update -y
+  229  sudo yum update -y
+  230  sudo find / -iname jetty.xml
+  231  sudo netstat -lntp
+  232  pwd
+  233  sudo systemctl status kafka
+  234  hostname -i
+  235  pwd
+  236  ls
+  237  cd kafka
+  238  ls
+  239  cd bin/
+  240  ls
+  241  pwd
+  242  ~/kafka/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic TutorialTopic
+  243  "Hello, World" | ~/kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic TutorialTopic > /dev/null
+  244  echo"Hello, World" | ~/kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic TutorialTopic > /dev/null
+  245  echo "Hello, World" | ~/kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic TutorialTopic > /dev/null
+  246  ~/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic TutorialTopic --from-beginning
+  247  exit
+  248  ls
+  249  pwd
+  250  cd kafka
+  251  ls
+  252  cd bin/
+  253  ls
+  254  pwd
+  255  hostname -i
+  256  ls
+  257  cd kafka
+  258  ls
+  259  cd bin
+  260  ls
+  261  pwd
+  262  sudo kafka-topics.sh --zookeeper localhost:2181 --list
+  263  kafka-topics.sh --zookeeper localhost:2181 --list
+  264  cd 
+  265  sudo find / -iname mytopic
+  266  ~home/user1/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list
+  267  sudo ~home/user1/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list
+  268  su - user1
+  269  pwd
+  270  ls
+  271  cd kafka/kafka-topics.sh --zookeeper localhost:2181 --delete --topic mytopic
+  272  cd kafka
+  273  ls
+  274  cd bin/
+  275  ls
+  276  cat kafka-topics.sh 
+  277  cat kafka-configs.sh 
+  278  cd
+  279  sudo find / -iname -XX:ParallelGCThreads=N
+  280  sudo yum list installed | grep libssl-doc
+  281  sudo yum list installed | grep libssl-dev
+  282  sudo yum list installed | grep openssl
+  283  sudo yum list installed | grep bash
+  284  systemctl status redis
+  285  ss -an | grep 6379
+  286  hostname -i
+  287  redis-cli -h 10.170.0.6 ping
+  288   git clone git://github.com/nicolasff/webdis.git
+  289  redis-cli
+  290  redis
+  291  cd /tmp
+  292  ls
+  293  cd /opt
+  294  ls
+  295  cd
+  296  cd /tmp
+  297  ls
+  298  systemctl status redis
+  299  systemctl status redis -l
+  300  cd /opt
+  301  ls
+  302  cd ..
+  303  cd /tmp
+  304  ls
+  305  cd redis-5.0.0
+  306  ls
+  307  sudo find / -iname redis-server
+  308  cd /etc/systemd/system
+  309  ls
+  310  cd redis.service 
+  311  cat redis.service 
+  312  sudo vi redis.service 
+  313  cd /etc/systemd/system/redis.service.d
+  314  cd /etc/systemd/system
+  315  ls
+  316  cd /etc/systemd/system/redis.service
+  317  sudo find / -iname redis_systemd.conf
+  318  cd /tmp
+  319  ls
+  320  cd redis-5.0.0
+  321  ls
+  322  cd 
+  323  cd /usr/share/local
+  324  pwd
+  325  cd share
+  326  cd /etc/redis/
+  327  ls
+  328  cat redis.conf 
+  329  sudo vi redis.conf 
+  330  cd /tmp
+  331  ls
+  332  cd redis-5.0.0
+  333  ls
+  334  cd redis.conf 
+  335  sudo vi  redis.conf 
+  336  PUBLISH redis
+  337  redis-cli
+  338  redis-cli
+  339  ls
+  340  cd /tmpo
+  341  cd /tmp
+  342  ls
+  343  pwd
+  344  cd redis-5.0.0
+  345  ls
+  346  cat runtest
+  347  cat runtest-cluster 
+  348  ls
+  349  cat Makefile 
+  350  ls
+  351  cat sentinel.conf 
+  352  ls
+  353  cat redis.conf 
+  354  sudo vi redis.conf 
+  355  redis-cli
+  356  sudo systemctl restart redis
+  357  redis-cli
+  358  cd /etc'
+  359  cd /etc
+  360  ls
+  361  cd redis/
+  362  ls
+  363  cat redis.conf 
+  364  redis-py
+  365  redis
+  366  ls
+  367  pwd
+  368  cd /tmp
+  369  ls
+  370  ls
+  371  sudo vi redis.conf 
+  372  scp file.txt remote_username@10.10.0.2:/remote/directory/newfilename.txt
+  373  pwd
+  374  ls
+  375  hostname -i
+  376  whoami
+  377  sudo scp user1@10.170.0.6:/tmp/redis-5.0.0/redis.conf  /etc/ansible/redis_d1/templates
+  378  sudo scp user1@10.170.0.2:/tmp/redis-5.0.0/redis.conf  /etc/ansible/redis_d1/templates
+  379  sudo scp user1@10.170.0.6:/tmp/redis-5.0.0/redis.conf  /etc/ansible/
+  380  pwd
+  381  sudo vi redis.conf 
+  382  pip install redis
+  383  redis-cli
+  384  systemctl restart redis
+  385  sudo systemctl restart redis
+  386  sudo systemctl stop redis
+  387  sudo systemctl daemon-reload
+  388  systemctl status redis
+  389  redis-cli
+  390  systemctl status redis
+  391  systemctl daemon-reload
+  392  sudo systemctl daemon-reload
+  393  systemctl status redis
+  394  systemctl stop redis
+  395  sudo systemctl stop redis
+  396  systemctl status redis
+  397  sudo systemctl status redis
+  398  sudo systemctl status redis -l
+  399  systemctl restart redis
+  400  sudo systemctl restart redis
+  401  sudo systemctl daemon-reload
+  402  sudo systemctl status redios
+  403  sudo systemctl status redis
+  404  redis-cli
+  405  pwd
+  406  sudo vi redis.conf 
+  407  sudo systemctl restart redis
+  408  sudo systemctl status redis
+  409  pwd
+  410  sudo vi redis.conf 
+  411  pwd
+  412  cd
+  413  cd /etc/redis
+  414  ls
+  415  cat redis.conf 
+  416  sudo vi redis.conf 
+  417  redis-cli
+  418  systemctl restart redis
+  419  sudo systemctl restart redis
+  420  redis-cli
+  421  pwd
+  422  cd /tmp
+  423  ls
+  424  cd redis-5.0.0
+  425  ls
+  426  sudo vi redis.conf 
+  427  pwd
+  428  cd
+  429  redis-cli
+  430  cd /tmp/redis-5.0.0
+  431  sudo vi redis.conf 
+  432  cd /etc/redis/
+  433  ls
+  434  sudo vi redis.conf 
+  435  cd ..
+  436  l;s
+  437  ls
+  438  cd systemd
+  439  ls
+  440  cd system
+  441  ls
+  442  cat redis.service 
+  443  pwd
+  444  cd ..
+  445  pwd
+  446  sudo mv /tmp/redis-5.0.0/redis.conf .
+  447  ls
+  448  cd 
+  449  pwd
+  450  sudo systemctl restart redis
+  451  sudo systemctl daemon-reload
+  452  sudo systemctl status redis
+  453  redis-cli
+  454  cd /etc/redis
+  455  ls
+  456  cd ..
+  457  ls
+  458  pwd
+  459  cd redis
+  460  ls
+  461  sudo vi redis.conf 
+  462  sudo systemctl restrt redis
+  463  sudo systemctl restart redis
+  464  redis-cli
+  465  pwd
+  466  cat redis.conf 
+  467  sudo vi redis.conf 
+  468  sudo systemctl status redis
+  469  redis-cli
+  470  cd /var
+  471  ls
+  472  cd redis/
+  473  ls
+  474  pwd
+  475  cd ..
+  476  pwd
+  477  cd /etc/redis
+  478  ls
+  479  pwd
+  480  cd ..
+  481  pwd
+  482  cp ~/.bashrc /root
+  483  sudo cp ~/.bashrc /root
+  484  cd
+  485  ls -a
+  486  cat .bash_profile 
+  487  cat .bashrc 
+  488  sudo vi .bash_profile 
+  489  source ~/.bash_profile
+  490  exit
+  491  . ~/.bash_profile
+  492  . .bash_profile 
+  493  ls
+  494  ls -a
+  495  cat .bash_profile 
+  496  cat .bash_history 
+  497  ls
+  498  ls -a
+  499  cat .config
+  500  cd .config/
+  501  ls
+  502  cat gcloud/
+  503  cd gcloud/
+  504  ls
+  505  cd ..
+  506  ls
+  507  whoami
+  508  exit
+  509  sudo su -
+  510  exit
+  511  pwd
+  512  cd
+  513  exit
+  514  ps
+  515  redis-cli
+  516  whoami
+  517  sudo su -
+  518  redis-cli
+  519  sudo systemctl start redis
+  520  sudo systemctl status redis
+  521  ss -an | grep 6379
+  522  nestat -lntp
+  523  netstat -lntp
+  524  netstat -lntp
+  525  netstat -ltp
+  526  netstat -ltph
+  527  netstat -ltpa
+  528  clear
+  529  redis
+  530  redis-cli
+  531  sudo yum upadtes
+  532  sudo yum upadte
+  533  pwd
+  534  whoami
+  535  redis-cli
+  536  auth "hello@world"
+  537  redis-cliredis-clid
+  538  auth "hello@world"is-cli
+  539  redis-cli
+  540  sudo systemctl status redis
+  541  redis-cli
+  542  systemctl restart redis
+  543  systemctl daemon-reload
+  544  systemctl restart redis
+  545  systemctl status redis.service
+  546  redis-cli
+  547  systemctl restart redis
+  548  redis-cli
+  549  pwd
+  550  redis-cli
+  551  systemctl restart redis
+  552  redis-cli
+  553  rm -fr etc/redis/ /var/log/redis_* /etc/init.d/redis_6379 /usr/local/bin/redis*
+  554  sudo rm -fr etc/redis/ /var/log/redis_* /etc/init.d/redis_6379 /usr/local/bin/redis*
+  555  rm -fr /var/lib/redis/6379
+  556  sudo rm -fr /var/lib/redis/6379
+  557  redis-cli
+  558  cd /etc
+  559  ls
+  560  pwd
+  561  cd redis
+  562  ls
+  563  rm -rf redis
+  564  ls
+  565  cd ..
+  566  ls
+  567  rm -rf redis
+  568  pwd
+  569  sudo yum remove redis
+  570  sudo yum remove redis-server
+  571  sudo yum remove redislabs
+  572  clear
+  573  redis-cli
+  574  su - user1
+  575  hostname -i
+  576  redis 
+  577  journalctl -xe
+  578  cd /usr/local
+  579  ls
+  580  cd bin
+  581  ls
+  582  ls -a
+  583  sudo init 0
+  584  sudo systemctl status bitbucket.service
+  585  git --version
+  586  git -v
+  587  git -V
+  588  git
+  589  python -V
+  590  git
+  591  sudo nano /etc/yum.repos.d/wandisco-git.repo
+  592  sudo rpm --import http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco
+  593  sudo yum install git
+  594  git --version
+  595  cd /usr/lib/systemd/system/
+  596  l
+  597  ll
+  598  ./bitbucket.service start
+  599  sudo ./bitbucket.service start
+  600  sudo systemctl status bitbucket.service
+  601  sudo systemctl status bitbucket.service0
+  602  sudo systemctl status bitbucket.service
+  603  exit
+  604  sudo systemctl status bitbucket.service
+  605  sudo systemctl enable bitbucket.service
+  606  sudo systemctl start bitbucket.service
+  607  sudo systemctl status bitbucket.service
+  608  sudo yum install git
+  609  sudo yum install git-2.11.0
+  610  yum remove git
+  611  sudo yum remove git
+  612  git --version
+  613  yum update
+  614  sudo yum update
+  615  clear
+  616  sudo yum remove git*
+  617  sudo yum -y install  https://centos7.iuscommunity.org/ius-release.rpm
+  618  sudo yum -y install  git2u-all
+  619  sudo reboot
+  620  git --version
+  621  sudo systemctl restart bitbucket
+  622  sudo systemctl status bitbucket
+  623  sudo systemctl restart bitbucket
+  624  sudo systemctl status bitbucket
+  625  sudo systemctl restart bitbucket
+  626  sudo systemctl status bitbucket
+  627  sudo systemctl restart bitbu
+  628  honedo udher syart but 3 min me autimtic se stophora tcp ka check karana 
+  629  sudo systemctl status bitbucket
+  630  sudo systemctl restart bitbucket
+  631  sudo systemctl status bitbucket
+  632  sudo systemctl restart bitbucket
+  633  sudo systemctl status bitbucket
+  634  sudo systemctl restart bitbucket
+  635  sudo systemctl status bitbucket
+  636  reboot
+  637  sudo systemctl status bitbucket
+  638  sudo systemctl restart bitbucket
+  639  sudo systemctl status bitbucket
+  640  sudo systemctl restart bitbucket
+  641  sudo systemctl status bitbucket
+  642  sudo systemctl start bitbucket
+  643  sudo systemctl status bitbucket
+  644  sudo systemctl status bitbucket -l
+  645  sudo systemctl status bitbucket
+  646  sudo systemctl restart bitbucket
+  647  sudo systemctl status bitbucket
+  648  hostname -i
+  649  sudo systemctl status bitbucket.service
+  650  git --version
+  651  sudo find / -iname git
+  652  git --version
+  653  sudo systemctl status bitbucket
+  654  sudo systemctl restart bitbucket
+  655  sudo systemctl status bitbucket
+  656  sudo systemctl restart bitbucket
+  657  sudo systemctl status bitbucket
+  658  sudo systemctl restart bitbucket
+  659  sudo systemctl status bitbucket
+  660  sudo systemctl status bitbucket -l
+  661  sudo su
+  662  sudo systemctl restart bitbucket -l
+  663  sudo systemctl status bitbucket 
+  664  cd
+  665  cat .bash_profile 
+  666  hostname -i
+  667  sudo systemctl restart bitbucket -l
+  668  sudo systemctl status bitbucket
+  669  java -version
+  670  sudo systemctl restart bitbucket -l
+  671  sudo systemctl restart bitbucket
+  672  sudo systemctl status bitbucket
+  673  sudo systemctl status bitbucket -l
+  674  cd  /opt
+  675  ls
+  676  cd ..
+  677  ls
+  678  cd 
+  679  cd /systemd/systeam
+  680  cd /etc/systemd/system
+  681  ls
+  682  cd ..
+  683  pwd
+  684  cd
+  685  sudo systemctl status bitbucket -l
+  686  sudo systemctl restart bitbucket -l
+  687  sudo systemctl restart bitbucket 
+  688  sudo systemctl status bitbucket -l
+  689  sudo systemctl restart bitbucket 
+  690  sudo systemctl status bitbucket -l
+  691  sudo systemctl restart bitbucket 
+  692  sudo systemctl status bitbucket -l
+  693  cd /var/atlassian/application-data/bitbucket
+  694  ls
+  695  pwd
+  696  cd log
+  697  sudo log
+  698  sudo cd log
+  699  ls
+  700  pwd
+  701  cd log
+  702  sudo cd log
+  703  ls
+  704  sudo cd  log/
+  705  ls
+  706  sudo su
+  707  sudo systemctl status bitbucket 
+  708  sudo systemctl restart bitbucket 
+  709  sudo systemctl status bitbucket 
+  710  sudo systemctl restart bitbucket 
+  711  sudo systemctl status bitbucket 
+  712  sudo systemctl restart bitbucket 
+  713  sudo systemctl status bitbucket 
+  714  sudo systemctl status bitbucket  -l
+  715  ps 18852
+  716  ps 18775
+  717  ps 
+  718  echo ${BITBUCKET_CATALINA_PID}
+  719  echo $BITBUCKET_CATALINA_PID
+  720  cat /dev/null
+  721  sudo systemctl status bitbucket  -l
+  722  git --version
+  723  java --version
+  724  java -verrsion
+  725  java -version
+  726  paython --version
+  727  py --version
+  728  ls
+  729  sudo su
+  730  ls
+  731  whoami
+  732  cat ${jenkins_home}
+  733  sudo rm -rf ${jenkins_home}
+  734  ls
+  735  ls -a 
+  736  sudo rm -rf swarm-client-3.9.jar 
+  737  sudo rm -rf ${jenkins_home}
+  738  ls 
+  739  ls -a
+  740  cat .bash_profile 
+  741  cat .bashrc 
+  742  cat .bash_logout 
+  743  cat .bash_history 
+  744  ls
+  745  ls -a
+  746  cd mydir/
+  747  ls
+  748  sudo rm -rf mydir
+  749  cat /etc/passwd
+  750  whoami
+  751  netstat -lntp
+  752  sudo yum remove jenkins
+  753  sudo find / -iname .jenkins
+  754  su -
+  755  sudo su -
+  756  ls
+  757  sudo systemctl status kongod
+  758  sudo su -
+  759  sudo find / -iname kongo.conf
+  760  whomi
+  761  whoami
+  762  ls
+  763  cd /tmp
+  764  ls
+  765  sudo find / -iname kongo.conf
+  766  sudo su -
+  767  clear
+  768  ls
+  769  sudo systemctl status kongd.service
+  770  curl 127.0.0.1/32 
+  771  curl 127.0.0.1/28
+  772  curl 127.0.0.1
+  773  cd /var/log
+  774  sudo /var/log
+  775  sudo cd /var/log
+  776  ls
+  777  pwd
+  778  cat /usr/local/kong/logs/access.log
+  779  vi /usr/local/kong/logs/access.log
+  780  clear
+  781  npm install -g kong-dashboard
+  782  sudo npm install -g kong-dashboard
+  783  kong-dashboard start --kong-url http://34.92.100.136:8001
+  784  kong-dashboard start --kong-url http://34.92.100.136:18001
+  785  kong-dashboard start   --kong-url http://kong:8001   --port 
+  786  kong-dashboard start \
+  787  kong-dashboard start \ --kong-url http://34.92.100.136:18001\ --port [9090]
+  788  kong-dashboard start \ --kong-url http://34.92.100.136:18001\ --port 9090
+  789  kong-dashboard start --kong-url http://34.92.100.136:18001\ --port 9090
+  790  kong-dashboard start\ --kong-url http://34.92.100.136:18001\ --port 9090
+  791  kong-dashboard start  --kong-url http://34.92.100.136:18001 --port [9090]
+  792  kong-dashboard start  --kong-url http://34.92.100.136:18001 --port 9090
+  793  kong-dashboard start --kong-url http://34.92.100.136:18001 --basic-auth user1=password1 user2=password2
+  794  pwd
+  795  cd
+  796  ls
+  797  cd /tmp
+  798  ls
+  799  cat /etc/kong/kong.conf
+  800  vi  /etc/kong/kong.conf
+  801  vi  /etc/kong/kong.conf.default 
+  802  kong-dashboard start --kong-url http://34.92.100.136:18001 --basic-auth user1=password1 user2=password2
+  803  vi  /etc/kong/kong.conf.default 
+  804  sudo vi  /etc/kong/kong.conf.default 
+  805  kong-dashboard start --kong-url http://34.92.100.136:18001 --basic-auth user1=password1 user2=password2
+  806  sudo git init ; sudo  git clonehttps://github.com/PGBI/kong-dashboard.git
+  807  sudo git init ; sudo  git clone https://github.com/PGBI/kong-dashboard.git
+  808  ls
+  809  cd kong-dashboard/
+  810  ls
+  811  cd bin/
+  812  ls
+  813  cat kong-dashboard.js 
+  814  mv kong-dashboard.js kong-dashboard.sh
+  815  sudo mv kong-dashboard.js kong-dashboard.sh
+  816  chmod +x kong-dashboard.sh 
+  817  sudo chmod +x kong-dashboard.sh 
+  818  ./kong-dashboard.sh 
+  819  npm install -g kong-dashboard@v2
+  820  sudo npm install -g kong-dashboard@v2
+  821  kong-dashboard start
+  822  export KONG_DASHBOARD_NAME=admin && export KONG_DASHBOARD_PASS=password && kong-dashboard start
+  823  kong-dashboard start --kong-url http://34.92.100.136:18001 
+  824  kong-dashboard start 
+  825  export KONG_DASHBOARD_NAME=admin && export KONG_DASHBOARD_PASS=password && kong-dashboard start
+  826  kong-dashboard start --kong-url http://34.92.100.136:18001 --basic-auth user1=password1 user2=password2
+  827  git clone https://github.com/PGBI/kong-dashboard.git
+  828  sudo git clone https://github.com/PGBI/kong-dashboard.git
+  829  cd kong-dashboard
+  830  git checkout 2.0
+  831  sudo git checkout 2.0
+  832  ls
+  833  pwd
+  834  ls -a
+  835  cd
+  836  git clone https://github.com/PGBI/kong-dashboard.git
+  837  cd kong-dashboard
+  838  git checkout 2.0
+  839  ls
+  840  npm install
+  841  sudo npm install
+  842  npm run build
+  843  npm start
+  844  sudo npm start
+  845  sudo npm start  http://34.92.100.136:18001
+  846  sudo npm start  kong-url http://34.92.100.136:18001
+  847  sudo npm start
+  848  Sudo systemctl status kongd.service
+  849  systemctl status kongd.service
+  850  sudo npm start  kong-url http://34.92.100.136:18001
+  851  Sudo systemctl status kongd.service
+  852  sudo systemctl status kongd.service
+  853  curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash - yum install -y nodejs
+  854  sudo curl https://rpm.nodesource.com/setup_9.x | sudo bash - yum install -y nodejs
+  855  curl --silent --location https://rpm.nodesource.com/setup_9.xcurl --silent --location https://rpm.nodesource.com/setup_9.x
+  856  curl --silent --location https://rpm.nodesource.com/setup_9.x
+  857   sudo bash - yum install -y nodejs
+  858   sudo yum install -y nodejs
+  859  sudo npm install -g kong-dashboard
+  860  nohup kong-dashboard start --kong-url http://34.92.136.86:18001
+  861  sudo kong-dashboard start --kong-url http://34.92.136.86:18001
+  862  cd /opt
+  863  sudo wget https://github.com/ajaysreedhar/kongdash/releases/download/v0.3.0/kongdash-0.3.0-linux-x64.tar.gz
+  864  ls
+  865  sudo tar -xvf kongdash-0.3.0-linux-x64.tar.gz 
+  866  ls
+  867  cd kongdash-0.3.0-linux-x64
+  868  ll
+  869  sudo ./install.sh 
+  870  sudo cat install.sh 
+  871  history
+  872  sudo init 0
+  873  sudo systemctl status kongd.service
+  874  cd /etc/kong/
+  875  ls
+  876  cat kong.conf
+  877  cat kong.conf.default 
+  878  psql
+  879  ls
+  880  clear
+  881  ls
+  882  cat kong.conf
+  883  cat kong.conf.default 
+  884  ls
+  885  vi kong.conf.default 
+  886  kong check /etc/kong/kong.conf
+  887  kong check /etc/kong/kong.conf.default 
+  888  kong check /etc/kong/kong.conf.123
+  889  kong check /etc/kong/
+  890  kong check /etc/kong/kong.conf
+  891  cat /etc/kong/kong.conf
+  892  cat /etc/kong/kong.conf.default 
+  893  sudo vi /etc/kong/kong.conf
+  894  sudo systemctl restart kongd.service
+  895  journalctl -xe
+  896  sudo vi /etc/kong/kong.conf
+  897  sudo systemctl restart kongd.service
+  898  sudo systemctl status kongd.service
+  899  sudo vi /etc/kong/kong.conf
+  900  npm install -g kong-dashboard
+  901  sudo npm install -g kong-dashboard
+  902  sudo kong-dashboard start --kong-url http://35.241.87.201:18001
+  903  kong-dashboard start --help
+  904  kong-dashboard --version
+  905  sudo kong-dashboard start --kong-url http://35.241.87.201:18001
+  906  cd /etc/kong/kong.conf
+  907  cat /etc/kong/kong.conf
+  908  psql
+  909  su - postgress
+  910  su - postgr
+  911  sudo su - postgres
+  912  cp  /etc/kong/kong.conf /new
+  913  sudo cp  /etc/kong/kong.conf /new
+  914  ls
+  915  cd 
+  916  ls
+  917  sudo mkdir new
+  918  ls
+  919  pwd
+  920  cd
+  921  ls
+  922  ls
+  923  cat nohup.out 
+  924  ls
+  925  kong-dashboard
+  926  /bin/kong-dashboard 
+  927  cd /bin/kong-dashboard 
+  928  cat /bin/kong-dashboard 
+  929  vi /bin/kong-dashboard 
+  930  ls
+  931  cd /tmp
+  932  ls
+  933  cd kong-dashboard/
+  934  ls
+  935  cat package-lock.json 
+  936  LS
+  937  ls
+  938  cat docker-compose.yml 
+  939  clear
+  940  cat docker-compose.yml 
+  941  cd new/
+  942  ll
+  943  pwd
+  944  sudo cp  /etc/kong/kong.conf /home/user1/new
+  945  cd /home/user1/new
+  946  ls
+  947  sudio vi /etc/systemd/system/kongd.service
+  948  sudo vi /etc/systemd/system/kongd.service
+  949  cd /etc/kong/kong.conf.default 
+  950  sudo vi /etc/kong/kong.conf.default 
+  951  sudo systemctl restart kongd.service
+  952  sudo systemctl daemon-reload
+  953   
+  954  sudo systemctl status kongd.service
+  955  sudo systemctl daemon-reload
+  956  sudo systemctl status kongd.service
+  957  history
+  958  sudo kong-dashboard start --kong-url http://35.241.87.201:18001
+  959  sudo vi /etc/kong/kong.conf.default 
+  960  sudo systemctl daemon-reload
+  961  sudo kong-dashboard start --kong-url http://35.241.87.201:18001
+  962  sudo systemctl restart kongd.service
+  963  sudo kong-dashboard start --kong-url http://35.241.87.201:18001
+  964  sudo systemctl restart kongd.service
+  965  journalctl -xe
+  966  sudo vi /etc/kong/kong.conf.default 
+  967  sudo systemctl daemon-reload
+  968  sudo systemctl restart kongd.service
+  969  sudo kong-dashboard start --kong-url http://35.241.87.201:18001
+  970  sudo init 0
+  971  ls
+  972  cd /tmp
+  973  ls
+  974  sudo find / -iname kong.sh
+  975  ls
+  976  pwd
+  977  cd 
+  978  ls
+  979  cd kong-dashboard/
+  980  ls
+  981  sudo systemctl status kongd.service
+  982  sudo systemctl restart kongd.service
+  983  sudo systemctl status kongd.service
+  984  netstat -lntp
+  985  sudo netstat -lntp
+  986  history
+  987  sudo systemctl status kongd.service
+  988  kong version
+  989  sudo netstat -lntp
+  990  sudo netstat -lntp 
+  991  ls
+  992  sudo find / -iname kong-dashboard
+  993  sudo yum install kong-dashboard
+  994  history
+  995  sudo kong-dashboard start --kong-url  http://34.92.100.136:18001
+  996  kong version
+  997  history'
+  998  history
+  999  sudo kong-dashboard start --kong-url  http://34.92.201.91:18001
+ 1000  sudo sytemctl 
+ 1001   sudo systemctl status kongd.service
+ 1002* 
+ 1003   sudo systemctl status kongd.service
+ 1004  ulimit -sn
+ 1005  ulimit -Sn
+ 1006  sudo kong-dashboard start --kong-url  http://34.92.201.91:18001
+ 1007  ulimit -Hn
+ 1008  cat /etc/security/limits.conf
+ 1009   sudo systemctl status kongd.service
+ 1010  cat /etc/security/limits.conf
+ 1011   sudo systemctl status kongd.servic
+ 1012  cat /etc/security/limits.confhistor
+ 1013  history
+ 1014  history >> new.txt
